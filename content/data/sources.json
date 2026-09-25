@@ -1,0 +1,202 @@
+[
+  {
+    "id": "SRC_WHO_ECD_2020",
+    "organization": "World Health Organization",
+    "title": "Improving early childhood development: WHO guideline",
+    "year": "2020",
+    "type": "Guideline",
+    "url": "https://www.who.int/publications/i/item/97892400020986",
+    "evidenceNote": "Responsive caregiving dan kesempatan early learning selama 3 tahun pertama.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_UNICEF_CCD",
+    "organization": "UNICEF / WHO",
+    "title": "Care for Child Development (CCD)",
+    "year": "2012/current resource hub",
+    "type": "Evidence-based programme",
+    "url": "https://www.unicef.org/documents/care-child-development",
+    "evidenceNote": "Play, communication, child cues, dan responsive caregiving.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_UNICEF_CCD_CARDS",
+    "organization": "UNICEF / WHO",
+    "title": "Recommendations for Care for Child Development — Counselling Cards",
+    "year": "2018 edition",
+    "type": "Counselling guidance",
+    "url": "https://www.unicef.org/lac/en/media/8571/file/Counseling%20Cards%20-%20Long%20version.pdf",
+    "evidenceNote": "Birth–1 week: touch/hold/see/hear/move freely + eye contact/talk. 1 week–6 months: see/hear/feel/move, track objects, smile/talk/copy sounds.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_CDC_2M_2026",
+    "organization": "CDC",
+    "title": "Milestones by 2 Months",
+    "year": "2026",
+    "type": "Developmental monitoring resource",
+    "url": "https://www.cdc.gov/act-early/milestones/2-months.html",
+    "evidenceNote": "Milestone/tips usia 2 bulan; bukan pengganti standardized screening.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_KIA_2024",
+    "organization": "Kementerian Kesehatan RI",
+    "title": "Buku Kesehatan Ibu dan Anak (KIA) Edisi 2024",
+    "year": "2024",
+    "type": "National guideline / handbook",
+    "url": "https://s.kemkes.go.id/BukuKIA2024",
+    "evidenceNote": "Pemantauan dan stimulasi sesuai usia dalam suasana aman, nyaman, menyenangkan.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_AAP_ACTIVITY_0_3",
+    "organization": "American Academy of Pediatrics / HealthyChildren",
+    "title": "How Active is Your Baby? Tips to Get Infants Learning, Moving & Thriving",
+    "year": "Current",
+    "type": "Parent guidance",
+    "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/How-Active-is-Your-Baby.aspx",
+    "evidenceNote": "0–3 bulan: movement, warmth, voice, talking/singing, supervised tummy time, close face interaction.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_AAP_TUMMY",
+    "organization": "American Academy of Pediatrics / HealthyChildren",
+    "title": "Back to Sleep, Tummy to Play",
+    "year": "Current",
+    "type": "Safety / parent guidance",
+    "url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/Back-to-Sleep-Tummy-to-Play.aspx",
+    "evidenceNote": "Tummy time hanya saat awake + supervised; tidur telentang; mulai singkat dan bertahap.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_AAP_MOVEMENT_0_3",
+    "organization": "American Academy of Pediatrics / HealthyChildren",
+    "title": "Movement Milestones: Birth to 3 Months",
+    "year": "Current",
+    "type": "Parent guidance",
+    "url": "https://www.healthychildren.org/English/ages-stages/baby/pages/Movement-Birth-to-Three-Months.aspx",
+    "evidenceNote": "Gaze to faces/voices, emerging head control, hand-to-mouth, voluntary movement.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_AAP_SURVEILLANCE",
+    "organization": "American Academy of Pediatrics",
+    "title": "Developmental Surveillance and Screening Patient Care",
+    "year": "Current",
+    "type": "Clinical guidance",
+    "url": "https://www.aap.org/en/patient-care/developmental-surveillance-and-screening-patient-care/",
+    "evidenceNote": "Surveillance mencakup concern orang tua, history, observation, risk/strength; surveillance bukan screening tervalidasi.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_PLOS_PARENTING_2021",
+    "organization": "Jeong et al., PLOS Medicine",
+    "title": "Parenting interventions to promote early child development in the first three years of life",
+    "year": "2021",
+    "type": "Systematic review / meta-analysis",
+    "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003602",
+    "evidenceNote": "Meta-analisis 102 RCT: parenting interventions memberi manfaat pada berbagai outcome ECD dan parenting; responsive caregiving penting.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_CDC_4M_2026",
+    "organization": "CDC",
+    "title": "Milestones by 4 Months",
+    "year": "2026",
+    "type": "Developmental monitoring resource",
+    "url": "https://www.cdc.gov/act-early/milestones/4-months.html",
+    "evidenceNote": "CDC 4-month milestones and caregiver activity tips; milestones represent skills most children (75%+) can do by that age and are not a substitute for validated screening.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_CDC_6M_2026",
+    "organization": "CDC",
+    "title": "Milestones by 6 Months",
+    "year": "2026",
+    "type": "Developmental monitoring resource",
+    "url": "https://www.cdc.gov/act-early/milestones/6-months.html",
+    "evidenceNote": "CDC 6-month milestones and caregiver activity tips including back-and-forth play, reaching, rolling, supported sitting, floor play, cause-and-effect and responsive communication.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_AAP_MOVEMENT_4_7",
+    "organization": "American Academy of Pediatrics / HealthyChildren",
+    "title": "Movement Milestones: Babies 4 to 7 Months",
+    "year": "Current",
+    "type": "Parent guidance",
+    "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Movement-4-to-7-Months.aspx",
+    "evidenceNote": "Guidance on tummy play, pushing up, rolling, balance and supported sitting across roughly 4–7 months, with recognition that timing varies among babies.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_CDC_9M_2026",
+    "organization": "CDC",
+    "title": "Milestones by 9 Months",
+    "year": "2026",
+    "type": "Developmental monitoring resource",
+    "url": "https://www.cdc.gov/act-early/milestones/9-months.html",
+    "evidenceNote": "Milestones and caregiver tips for 9 months; milestones are skills most children (75%+) can do by that age and are not a substitute for validated screening.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_AAP_MOVEMENT_8_12",
+    "organization": "American Academy of Pediatrics / HealthyChildren",
+    "title": "Movement Milestones in Babies 8 to 12 Months Old",
+    "year": "2021/current page",
+    "type": "Parent guidance",
+    "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Movement-8-to-12-Months.aspx",
+    "evidenceNote": "Sitting, reaching from sitting, rolling, crawling/scooting, pulling to stand, cruising, home safety, and avoidance of baby walkers.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_UNICEF_9M",
+    "organization": "UNICEF Indonesia",
+    "title": "Your baby's developmental milestones at 9 months",
+    "year": "Current page",
+    "type": "Parent guidance",
+    "url": "https://www.unicef.org/indonesia/parenting-village/your-babys-developmental-milestones-9-months",
+    "evidenceNote": "Social, communication, brain and movement development around 9 months; encourages following baby's signals during play and naming objects of interest.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_WHO_CCD_6_9",
+    "organization": "WHO / UNICEF",
+    "title": "Care for Child Development Participant Manual — 6 months up to 9 months",
+    "year": "2012/current hosted copy",
+    "type": "Evidence-based programme/manual",
+    "url": "https://iris.who.int/bitstream/handle/10665/75149/9789241548403_eng_Participant_Manual.pdf?sequence=13",
+    "evidenceNote": "Age-banded play and communication guidance for 6–9 months emphasizing safe objects, play, communication, imitation and responsive caregiving.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_CDC_1Y_2026",
+    "organization": "CDC",
+    "title": "Milestones by 1 Year",
+    "year": "2026",
+    "type": "Developmental monitoring resource",
+    "url": "https://www.cdc.gov/act-early/milestones/1-year.html",
+    "evidenceNote": "CDC 1-year milestones and activity tips. Milestones represent skills most children (75%+) can do by the age; materials are not a substitute for validated screening.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_AAP_DEV_12M",
+    "organization": "American Academy of Pediatrics / HealthyChildren",
+    "title": "Developmental Milestones: 12 Months",
+    "year": "Current",
+    "type": "Parent guidance",
+    "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Developmental-Milestones-12-Months.aspx",
+    "evidenceNote": "12-month developmental milestones across movement, hand skills, language, cognitive, and social domains; individual timing varies.",
+    "tier": "A"
+  },
+  {
+    "id": "SRC_WHO_CCD_9_12",
+    "organization": "WHO / UNICEF",
+    "title": "Care for Child Development — 9 months up to 12 months",
+    "year": "2012/current hosted resource",
+    "type": "Evidence-based programme/manual",
+    "url": "https://iris.who.int/bitstream/handle/10665/75149/9789241548403_eng_Participant_Manual.pdf?sequence=13",
+    "evidenceNote": "For 9–12 months: hide a favourite toy under cloth/box and see if child can find it; play peek-a-boo; name people/things and model gestures such as bye-bye.",
+    "tier": "A"
+  }
+]

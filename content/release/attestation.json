@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "releaseVersion": "1.0.0",
+  "recordedAt": "2026-09-25T16:02:03+07:00",
+  "basis": "Pemilik produk menyatakan seluruh konten telah ditinjau, valid, dan siap dipublikasikan dalam percakapan 25 September 2026.",
+  "reviewerName": null,
+  "reviewCompletedAt": null,
+  "independentClinicalReviewVerified": false,
+  "scope": {
+    "activities": 122,
+    "skills": 90,
+    "sources": 20,
+    "activitySkillMappings": 244,
+    "riskRules": 5
+  },
+  "inactiveOperationalRules": [
+    "RISK004"
+  ],
+  "sourceWorkbookSha256": "7da00c57452a6b7642f5755497c31ec07a08e447fbdf3804ba8b8a36f1d7e025",
+  "dataSha256": {
+    "activities.json": "ea774446618027389d6c262f4644091516003f31814beb6ae734ba0b21cc5b12",
+    "skills.json": "68f8575eb0350ca9a2dc53de4eff6916cd1b5124f06ac83f8d7ffd27195b2659",
+    "sources.json": "160a50b03b5c9ad6cb2d56235717a16bf8acbde6e8e9707df938a5f0d6ca16e1",
+    "activity-skill-map.json": "fad840767832404d8db445a255a65bf2734412f65a8b5c88d7b9f9c5db027bec",
+    "risk-rules.json": "44c5837cd6c3916f79c334a8dab4fe5fd651e91bfc3953fe6301a0d1e1e1148a",
+    "content-version.json": "af5dbe66307b673822de2e42c27868bdb4f1489ed6e4bac10a70cc38faacb12e"
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "RISK001",
+    "name": "Kehilangan kemampuan yang sebelumnya pernah dicatat",
+    "age": {
+      "minDays": 0,
+      "maxDays": 390
+    },
+    "triggerDescription": "User secara eksplisit memilih bahwa kemampuan yang dulu terlihat kini tidak lagi terlihat.",
+    "userStatus": "Baik dibahas dengan tenaga kesehatan",
+    "userMessage": "Catatan kehilangan kemampuan adalah informasi penting untuk dibahas dengan tenaga kesehatan. Fitur ini bukan diagnosis.",
+    "recommendedAction": "Buat ringkasan; sarankan pembahasan dengan tenaga kesehatan tanpa menunggu penilaian aplikasi berikutnya.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026",
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_SURVEILLANCE"
+    ],
+    "guardrail": "Tidak menghitung probabilitas penyakit atau diagnosis.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "RISK002",
+    "name": "Kekhawatiran orang tua tercatat",
+    "age": {
+      "minDays": 0,
+      "maxDays": 390
+    },
+    "triggerDescription": "User membuat concern pada domain perkembangan mana pun.",
+    "userStatus": "Perlu diperhatikan",
+    "userMessage": "Kekhawatiran Ayah/Bunda penting untuk dicatat. Simpan detailnya dan pertimbangkan membahasnya saat konsultasi.",
+    "recommendedAction": "Simpan concern; tawarkan ringkasan; jangan memberi diagnosis.",
+    "sourceRefs": [
+      "SRC_AAP_SURVEILLANCE"
+    ],
+    "guardrail": "Parental concern adalah bagian developmental surveillance, bukan hasil screening.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "RISK003",
+    "name": "Kekhawatiran berulang pada domain sama",
+    "age": {
+      "minDays": 0,
+      "maxDays": 390
+    },
+    "triggerDescription": "≥2 concern entries pada domain yang sama dalam 14 hari.",
+    "userStatus": "Baik dibahas dengan tenaga kesehatan",
+    "userMessage": "Kekhawatiran yang sama muncul beberapa kali dalam catatan. Membawanya ke tenaga kesehatan dapat membantu pembahasan lebih terarah.",
+    "recommendedAction": "Buat ringkasan kronologis otomatis.",
+    "sourceRefs": [
+      "SRC_AAP_SURVEILLANCE"
+    ],
+    "guardrail": "Threshold 14 hari adalah rule operasional produk dan wajib clinical review sebelum production.",
+    "reviewStatus": "clinical_review"
+  },
+  {
+    "id": "RISK004",
+    "name": "Observasi belum terlihat berulang lintas domain",
+    "age": {
+      "minDays": 0,
+      "maxDays": 390
+    },
+    "triggerDescription": "Beberapa observation items relevan usia tercatat belum terlihat pada beberapa tanggal dan lintas domain.",
+    "userStatus": "Perlu diperhatikan",
+    "userMessage": "Beberapa hal yang sedang Ayah Bunda amati belum tercatat terlihat pada beberapa kesempatan. Ini bukan hasil screening; bila ada kekhawatiran, diskusikan dengan tenaga kesehatan.",
+    "recommendedAction": "Tampilkan konteks dan ringkasan; tidak memberi label keterlambatan.",
+    "sourceRefs": [
+      "SRC_AAP_SURVEILLANCE",
+      "SRC_CDC_1Y_2026"
+    ],
+    "guardrail": "Threshold numerik dan age checkpoint tidak boleh diaktifkan sebelum clinical review.",
+    "reviewStatus": "clinical_review"
+  },
+  {
+    "id": "RISK005",
+    "name": "Data belum cukup",
+    "age": {
+      "minDays": 0,
+      "maxDays": 390
+    },
+    "triggerDescription": "Riwayat pengguna belum cukup untuk rule lain.",
+    "userStatus": "Belum cukup data",
+    "userMessage": "Belum cukup catatan untuk membuat Sinyal Perhatian.",
+    "recommendedAction": "Ajak lanjut observasi tanpa memberi label 'risiko rendah'.",
+    "sourceRefs": [
+      "SRC_AAP_SURVEILLANCE"
+    ],
+    "guardrail": "Mencegah reassurance palsu.",
+    "reviewStatus": "source_checked"
+  }
+]

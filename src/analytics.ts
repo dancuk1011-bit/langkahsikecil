@@ -1,0 +1,3 @@
+export type EventName='onboarding_started'|'onboarding_completed'|'activity_viewed'|'activity_started'|'activity_completed'|'activity_alternative_clicked'|'observation_saved'|'weekly_summary_viewed'|'concern_saved'|'risk_signal_displayed'|'health_summary_created'|'backup_created'|'backup_restored'|'push_prompt_viewed'|'push_opt_in'|'push_permission_denied'|'push_opened'|'community_clicked'|'related_product_viewed'|'related_product_clicked'|'push_settings_changed';
+// No provider configured: events deliberately remain on device and are not transmitted.
+export function track(_event:EventName){return}

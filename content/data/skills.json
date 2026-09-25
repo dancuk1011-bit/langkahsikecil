@@ -1,0 +1,1491 @@
+[
+  {
+    "id": "SK001",
+    "label": "Menatap wajah caregiver",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 0,
+      "maxDays": 90
+    },
+    "observationType": "milestone/observation",
+    "description": "Memusatkan pandangan pada wajah caregiver beberapa saat.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026",
+      "SRC_AAP_MOVEMENT_0_3"
+    ],
+    "guardrailNote": "Bukan tes; catat bila terlihat alami.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK002",
+    "label": "Lebih tenang saat diajak bicara/digendong",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 0,
+      "maxDays": 90
+    },
+    "observationType": "milestone/observation",
+    "description": "Tampak lebih tenang ketika caregiver bicara lembut atau menggendong.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026",
+      "SRC_UNICEF_CCD"
+    ],
+    "guardrailNote": "Respons dipengaruhi lapar, lelah, sakit, lingkungan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK003",
+    "label": "Senyum responsif",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 31,
+      "maxDays": 120
+    },
+    "observationType": "milestone/observation",
+    "description": "Senyum muncul saat caregiver tersenyum/berbicara/interaksi.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026",
+      "SRC_UNICEF_CCD"
+    ],
+    "guardrailNote": "Jangan memaksa.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK004",
+    "label": "Suara selain menangis",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 31,
+      "maxDays": 120
+    },
+    "observationType": "milestone/observation",
+    "description": "Cooing atau suara pendek selain tangisan.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026"
+    ],
+    "guardrailNote": "Catat bila spontan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK005",
+    "label": "Memberi perhatian pada suara",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 0,
+      "maxDays": 120
+    },
+    "observationType": "milestone/observation",
+    "description": "Terdiam, berubah ekspresi, atau mengarahkan perhatian saat mendengar suara.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026",
+      "SRC_AAP_MOVEMENT_0_3"
+    ],
+    "guardrailNote": "Bukan uji pendengaran.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK006",
+    "label": "Mengikuti orang/benda dengan mata",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 31,
+      "maxDays": 120
+    },
+    "observationType": "developmental observation",
+    "description": "Pandangan mengikuti wajah/objek yang bergerak perlahan.",
+    "sourceRefs": [
+      "SRC_UNICEF_CCD_CARDS",
+      "SRC_AAP_MOVEMENT_0_3"
+    ],
+    "guardrailNote": "Satu kegagalan bukan kesimpulan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK007",
+    "label": "Memperhatikan benda beberapa detik",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 31,
+      "maxDays": 120
+    },
+    "observationType": "milestone/observation",
+    "description": "Memandang objek/gambar beberapa detik.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026"
+    ],
+    "guardrailNote": "Gunakan objek sederhana.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK008",
+    "label": "Mengangkat kepala saat tummy time",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 31,
+      "maxDays": 120
+    },
+    "observationType": "milestone/observation",
+    "description": "Mencoba/mampu mengangkat kepala saat tengkurap ketika terjaga.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026",
+      "SRC_AAP_TUMMY"
+    ],
+    "guardrailNote": "Awake + supervised.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK009",
+    "label": "Menggerakkan lengan dan tungkai",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 0,
+      "maxDays": 120
+    },
+    "observationType": "milestone/observation",
+    "description": "Menggerakkan kedua lengan dan tungkai dalam aktivitas sehari-hari.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026",
+      "SRC_UNICEF_CCD_CARDS"
+    ],
+    "guardrailNote": "Tidak menilai simetri melalui app.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK010",
+    "label": "Membuka tangan sesaat",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 31,
+      "maxDays": 120
+    },
+    "observationType": "milestone/observation",
+    "description": "Tangan sesekali terbuka.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026"
+    ],
+    "guardrailNote": "Observasi, bukan skor.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK011",
+    "label": "Tangan ke tengah tubuh/mulut",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 31,
+      "maxDays": 120
+    },
+    "observationType": "developmental observation",
+    "description": "Mulai memperhatikan tangan dan membawanya ke tengah/mulut.",
+    "sourceRefs": [
+      "SRC_AAP_MOVEMENT_0_3"
+    ],
+    "guardrailNote": "Tidak diarahkan paksa.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK012",
+    "label": "Mencoba meraih jari/benda",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 61,
+      "maxDays": 120
+    },
+    "observationType": "developmental observation",
+    "description": "Mengarahkan tangan ke jari caregiver atau benda aman.",
+    "sourceRefs": [
+      "SRC_UNICEF_CCD",
+      "SRC_KIA_2024"
+    ],
+    "guardrailNote": "Variasi usia luas; bukan target wajib.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK013",
+    "label": "Merespons suara caregiver dengan suara",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 31,
+      "maxDays": 120
+    },
+    "observationType": "developmental observation",
+    "description": "Mengeluarkan suara setelah caregiver berbicara/meniru.",
+    "sourceRefs": [
+      "SRC_UNICEF_CCD_CARDS",
+      "SRC_CDC_2M_2026"
+    ],
+    "guardrailNote": "Berikan jeda.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK014",
+    "label": "Perhatian ke suara familiar",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 0,
+      "maxDays": 120
+    },
+    "observationType": "developmental observation",
+    "description": "Tampak tertarik/mengarahkan pandangan pada suara caregiver familiar.",
+    "sourceRefs": [
+      "SRC_AAP_MOVEMENT_0_3"
+    ],
+    "guardrailNote": "Bukan tes pendengaran.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK015",
+    "label": "Minat pada refleksi/wajah",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 61,
+      "maxDays": 120
+    },
+    "observationType": "activity observation",
+    "description": "Memperhatikan wajah/refleksi di cermin aman.",
+    "sourceRefs": [
+      "SRC_CDC_2M_2026"
+    ],
+    "guardrailNote": "Bukan self-recognition test.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK016",
+    "label": "Tersenyum untuk menarik perhatian",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil tersenyum sendiri untuk mendapatkan perhatian caregiver.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Catat bila terlihat alami; jangan dipancing berulang sebagai tes.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK017",
+    "label": "Terkekeh saat diajak bermain",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil terkekeh atau menunjukkan respons senang saat caregiver mencoba membuatnya tertawa.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Respons emosi dipengaruhi mood, lelah, lapar, dan lingkungan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK018",
+    "label": "Mencari/menjaga perhatian caregiver",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil melihat, bergerak, atau bersuara untuk mendapatkan atau mempertahankan perhatian.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Observasi interaksi, bukan ukuran keterikatan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK019",
+    "label": "Mengeluarkan suara seperti 'oooo'/'aahh'",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil mengeluarkan cooing atau bunyi vokal sederhana.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Tidak perlu memaksa bayi meniru bunyi tertentu.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK020",
+    "label": "Membalas suara caregiver",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil membuat suara kembali ketika caregiver berbicara.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Berikan jeda agar bayi punya kesempatan merespons.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK021",
+    "label": "Menoleh ke arah suara caregiver",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil mengarahkan kepala/pandangan ke arah suara caregiver.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Bukan tes pendengaran; concern pendengaran dibahas dengan tenaga kesehatan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK022",
+    "label": "Melihat tangan dengan minat",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil memperhatikan tangannya sendiri.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Catat spontan; tidak perlu mempertahankan tangan di depan wajah.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK023",
+    "label": "Kepala lebih stabil saat digendong tegak",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil dapat menjaga kepala lebih stabil saat tubuh ditopang caregiver.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026",
+      "SRC_AAP_MOVEMENT_4_7"
+    ],
+    "guardrailNote": "Jangan menguji dengan melepas dukungan secara mendadak.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK024",
+    "label": "Memegang mainan yang diletakkan di tangan",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil mempertahankan genggaman pada mainan ringan yang diberikan ke tangan.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Gunakan benda besar, ringan, dan aman.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK025",
+    "label": "Mengayunkan lengan ke arah mainan",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menggunakan lengan untuk menyentuh atau mengayun ke arah mainan.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Bukan target presisi; cukup catat upaya alami.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK026",
+    "label": "Membawa tangan ke mulut",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil membawa tangan ke area mulut.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026"
+    ],
+    "guardrailNote": "Jaga tangan bersih; ini bukan perilaku yang perlu dicegah bila aman.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK027",
+    "label": "Menopang tubuh pada siku/lengan bawah saat tummy time",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 121,
+      "maxDays": 180
+    },
+    "observationType": "milestone/observation",
+    "description": "Saat tengkurap, Si Kecil menopang tubuh bagian atas menggunakan siku/lengan bawah.",
+    "sourceRefs": [
+      "SRC_CDC_4M_2026",
+      "SRC_AAP_MOVEMENT_4_7"
+    ],
+    "guardrailNote": "Tummy time hanya saat terjaga dan diawasi.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK028",
+    "label": "Mengenali orang yang familiar",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menunjukkan respons berbeda atau perhatian pada caregiver/orang yang familiar.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026"
+    ],
+    "guardrailNote": "Jangan gunakan reaksi terhadap orang asing sebagai tes tunggal.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK029",
+    "label": "Tertarik melihat diri di cermin",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menikmati atau memperhatikan refleksi di cermin aman.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026"
+    ],
+    "guardrailNote": "Bukan tanda self-recognition.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK030",
+    "label": "Tertawa",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil tertawa saat berinteraksi atau bermain.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026"
+    ],
+    "guardrailNote": "Respons bervariasi menurut temperamen dan kondisi.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK031",
+    "label": "Bergantian membuat suara",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil dan caregiver bergantian mengeluarkan suara.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026",
+      "SRC_UNICEF_CCD_CARDS"
+    ],
+    "guardrailNote": "Gunakan sebagai observasi interaksi, bukan tes bahasa.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK032",
+    "label": "Membuat bunyi raspberry",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil meniup dengan lidah/bibir sehingga menghasilkan bunyi raspberry.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026"
+    ],
+    "guardrailNote": "Jangan dipaksa; tidak wajib muncul dalam satu sesi.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK033",
+    "label": "Membuat suara melengking/squeal",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menghasilkan suara bernada tinggi saat bereksplorasi dengan suara.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026"
+    ],
+    "guardrailNote": "Bukan ukuran kualitas suara.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK034",
+    "label": "Mengeksplorasi benda dengan mulut",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil membawa benda aman ke mulut untuk mengeksplorasi.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026"
+    ],
+    "guardrailNote": "Hanya benda besar, bersih, utuh, bebas bagian kecil.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK035",
+    "label": "Meraih mainan yang diinginkan",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil mengarahkan tangan dan meraih mainan yang menarik minatnya.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026"
+    ],
+    "guardrailNote": "Jangan menaruh benda terlalu jauh hingga membuat frustrasi.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK036",
+    "label": "Berguling dari tengkurap ke telentang",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil berguling dari posisi tengkurap ke telentang.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026",
+      "SRC_AAP_MOVEMENT_4_7"
+    ],
+    "guardrailNote": "Jangan menarik lengan/kaki untuk memaksa berguling.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK037",
+    "label": "Mendorong tubuh dengan lengan lebih lurus saat tummy time",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Saat tengkurap, Si Kecil mendorong dada lebih tinggi dengan lengan yang lebih lurus.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026",
+      "SRC_AAP_MOVEMENT_4_7"
+    ],
+    "guardrailNote": "Tummy time awake + supervised.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK038",
+    "label": "Menopang diri dengan tangan saat duduk",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Saat diposisikan duduk dengan aman, Si Kecil menggunakan tangan di depan untuk membantu keseimbangan.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026",
+      "SRC_AAP_MOVEMENT_4_7"
+    ],
+    "guardrailNote": "Duduk latihan hanya dengan pengawasan dan dukungan sesuai kemampuan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK039",
+    "label": "Menutup bibir untuk menunjukkan tidak ingin lagi makan",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 151,
+      "maxDays": 210
+    },
+    "observationType": "milestone/observation",
+    "description": "Saat feeding, Si Kecil menutup bibir untuk menunjukkan tidak ingin makanan lagi.",
+    "sourceRefs": [
+      "SRC_CDC_6M_2026"
+    ],
+    "guardrailNote": "Ini feeding cue, bukan target stimulasi; ikuti responsive feeding dan tenaga kesehatan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK040",
+    "label": "Duduk tanpa dukungan untuk beberapa saat",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil dapat mempertahankan posisi duduk tanpa ditopang caregiver untuk beberapa saat.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026",
+      "SRC_AAP_MOVEMENT_8_12"
+    ],
+    "guardrailNote": "Jangan menguji di tempat tinggi; waktu duduk mandiri bervariasi.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK041",
+    "label": "Berpindah menuju posisi duduk",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil mulai dapat bergerak menuju posisi duduk dari posisi lain.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026",
+      "SRC_AAP_MOVEMENT_8_12"
+    ],
+    "guardrailNote": "Jangan menarik lengan untuk mendudukkan sebagai tes.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK042",
+    "label": "Mulai bergerak di lantai dengan cara sendiri",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 181,
+      "maxDays": 300
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil berpindah di lantai dengan berguling, merayap, scooting, atau mulai merangkak.",
+    "sourceRefs": [
+      "SRC_AAP_MOVEMENT_8_12",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Tidak semua bayi merangkak dengan pola yang sama; fokus pada eksplorasi aman.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK043",
+    "label": "Menopang berat pada tangan dan lutut / posisi merangkak",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil mencoba posisi tangan-lutut, rocking, atau posisi persiapan bergerak.",
+    "sourceRefs": [
+      "SRC_AAP_MOVEMENT_8_12"
+    ],
+    "guardrailNote": "Bukan milestone wajib pada tanggal tertentu.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK044",
+    "label": "Menarik tubuh untuk berdiri dengan dukungan kokoh",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 241,
+      "maxDays": 330
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil menggunakan furnitur kokoh atau tangan caregiver untuk mencoba berdiri.",
+    "sourceRefs": [
+      "SRC_AAP_MOVEMENT_8_12",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Pastikan furnitur terpasang/berat dan area aman.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK045",
+    "label": "Memindahkan benda dari satu tangan ke tangan lain",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 181,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil memindahkan mainan atau benda aman antartangan.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Gunakan benda besar aman; bukan tes satu kali.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK046",
+    "label": "Membenturkan dua benda",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil memegang dua benda dan membenturkannya satu sama lain.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026"
+    ],
+    "guardrailNote": "Benda harus ringan, besar, dan tidak pecah.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK047",
+    "label": "Mengambil benda dengan jari/raking grasp",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menggunakan jari untuk menarik atau mengambil benda kecil yang aman untuk konteks feeding/observasi.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026"
+    ],
+    "guardrailNote": "Jangan gunakan benda kecil berisiko tersedak sebagai mainan; observasi dapat terjadi saat makan finger food sesuai kesiapan dan panduan feeding.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK048",
+    "label": "Meraih benda dari posisi duduk",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil menjaga keseimbangan sambil meraih mainan di sekitar posisi duduk.",
+    "sourceRefs": [
+      "SRC_AAP_MOVEMENT_8_12"
+    ],
+    "guardrailNote": "Lakukan di lantai dan tetap dekat untuk mencegah jatuh.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK049",
+    "label": "Mencari benda yang jatuh atau hilang dari pandangan",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil melihat atau mencari benda yang baru saja jatuh atau tersembunyi.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Aktivitas pencarian tidak dipakai sebagai tes object permanence.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK050",
+    "label": "Menikmati permainan cilukba",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil tersenyum, tertawa, atau mengantisipasi permainan peek-a-boo.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Respons bermain dipengaruhi mood dan temperamen.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK051",
+    "label": "Meniru gerakan sederhana",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil mencoba meniru gerakan caregiver seperti tepuk tangan atau ketuk benda.",
+    "sourceRefs": [
+      "SRC_UNICEF_9M",
+      "SRC_WHO_CCD_6_9"
+    ],
+    "guardrailNote": "Tidak perlu memaksa imitasi langsung.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK052",
+    "label": "Bereksplorasi dengan menjatuhkan atau membenturkan benda",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 181,
+      "maxDays": 300
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil mengulang tindakan sederhana pada benda untuk melihat atau mendengar hasilnya.",
+    "sourceRefs": [
+      "SRC_WHO_CCD_6_9",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Gunakan benda aman dan permukaan rendah.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK053",
+    "label": "Menunjukkan beberapa ekspresi wajah",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menunjukkan ekspresi berbeda seperti senang, sedih, marah, atau terkejut.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026"
+    ],
+    "guardrailNote": "Tidak perlu memberi label emosi secara klinis.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK054",
+    "label": "Merespons ketika dipanggil namanya",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil melihat atau merespons ketika caregiver memanggil namanya.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Bukan tes pendengaran; jangan mengulang keras sebagai tes.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK055",
+    "label": "Bereaksi ketika caregiver pergi",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil melihat, meraih, menangis, atau menunjukkan reaksi ketika caregiver menjauh.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026"
+    ],
+    "guardrailNote": "Variasi respons besar; bukan ukuran kualitas attachment.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK056",
+    "label": "Menunjukkan kehati-hatian pada orang asing",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil dapat tampak malu, menempel, atau takut pada orang yang tidak dikenal.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Jangan memaksa bayi berinteraksi atau digendong orang baru.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK057",
+    "label": "Tersenyum/tertawa saat peek-a-boo",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil tersenyum atau tertawa ketika bermain cilukba.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026"
+    ],
+    "guardrailNote": "Bukan tes sosial tunggal.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK058",
+    "label": "Babbling berulang seperti 'mamama'/'bababa'",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menghasilkan rangkaian bunyi berulang seperti mamama atau bababa.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026"
+    ],
+    "guardrailNote": "Tidak berarti kata bermakna; catat sebagai eksplorasi suara.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK059",
+    "label": "Mengangkat tangan untuk minta digendong",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil mengangkat kedua tangan atau menggunakan gesture untuk menunjukkan ingin digendong.",
+    "sourceRefs": [
+      "SRC_CDC_9M_2026"
+    ],
+    "guardrailNote": "Gesture dapat bervariasi antarbayi.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK060",
+    "label": "Meniru bunyi atau pola suara caregiver",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil mencoba meniru suara, intonasi, atau bunyi sederhana yang didengar.",
+    "sourceRefs": [
+      "SRC_UNICEF_9M",
+      "SRC_WHO_CCD_6_9"
+    ],
+    "guardrailNote": "Jangan menuntut pengucapan tepat.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK061",
+    "label": "Memperhatikan saat benda dinamai",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 181,
+      "maxDays": 300
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil melihat benda atau caregiver ketika benda familiar disebutkan.",
+    "sourceRefs": [
+      "SRC_UNICEF_9M",
+      "SRC_WHO_CCD_6_9"
+    ],
+    "guardrailNote": "Ini paparan bahasa, bukan tes pemahaman kata formal.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK062",
+    "label": "Menggunakan suara/gesture untuk mempertahankan interaksi",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 181,
+      "maxDays": 300
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil bersuara, menggerakkan tubuh, atau gesture untuk melanjutkan interaksi dengan caregiver.",
+    "sourceRefs": [
+      "SRC_WHO_CCD_6_9",
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Amati dalam permainan alami.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK063",
+    "label": "Menunjukkan minat pada gambar/buku dan benda yang ditunjuk",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 211,
+      "maxDays": 300
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil memperhatikan gambar, benda, atau arah tunjuk caregiver selama interaksi.",
+    "sourceRefs": [
+      "SRC_UNICEF_9M"
+    ],
+    "guardrailNote": "Tidak menuntut pointing sebagai milestone pada 7–9 bulan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK064",
+    "label": "Bermain permainan sosial seperti pat-a-cake",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil ikut menikmati atau berpartisipasi dalam permainan sosial sederhana bersama caregiver.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Partisipasi bisa berupa melihat, tersenyum, bergerak, atau mencoba meniru; bukan tes tunggal.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK065",
+    "label": "Meniru gesture sederhana",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil mencoba meniru gesture seperti tepuk, dadah, atau gerakan tangan sederhana.",
+    "sourceRefs": [
+      "SRC_WHO_CCD_9_12",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Jangan memegang tangan anak untuk memaksa imitasi.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK066",
+    "label": "Menunjukkan preferensi pada orang familiar",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil menunjukkan perhatian, kenyamanan, atau respons khusus pada caregiver/orang familiar.",
+    "sourceRefs": [
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Respons terhadap orang asing sangat bervariasi dan bukan ukuran kualitas attachment.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK067",
+    "label": "Berpartisipasi dalam permainan beri-terima",
+    "domain": "Sosial & Emosi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil memberi, menerima, atau mengembalikan benda dalam permainan bergantian sederhana.",
+    "sourceRefs": [
+      "SRC_WHO_CCD_9_12",
+      "SRC_UNICEF_CCD"
+    ],
+    "guardrailNote": "Tidak harus mengembalikan benda setiap kali.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK068",
+    "label": "Melambaikan tangan 'dadah'",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menggunakan atau mencoba gesture melambaikan tangan untuk 'dadah'.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_WHO_CCD_9_12"
+    ],
+    "guardrailNote": "Modelkan dalam rutinitas nyata; jangan jadikan tes berulang.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK069",
+    "label": "Menggunakan nama khusus untuk caregiver seperti mama/dada",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menggunakan bunyi/kata khusus untuk memanggil caregiver, seperti mama/dada atau nama khusus keluarga.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Variasi bahasa keluarga diperbolehkan; tidak menuntut satu kata tertentu.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK070",
+    "label": "Memahami 'tidak' dalam konteks",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil berhenti sejenak atau mengubah tindakan ketika caregiver mengatakan 'tidak' dalam konteks sederhana.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026"
+    ],
+    "guardrailNote": "Tidak digunakan sebagai latihan kepatuhan; gunakan bahasa keselamatan dengan tenang.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK071",
+    "label": "Mengikuti permintaan sederhana dengan gesture/konteks",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil merespons permintaan sederhana seperti 'beri bola' terutama bila dibantu gesture dan konteks.",
+    "sourceRefs": [
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Bukan tes pemahaman formal; jangan mengulang memaksa.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK072",
+    "label": "Menggunakan babbling dengan intonasi bervariasi",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil menggunakan rangkaian suara dengan ritme atau intonasi yang menyerupai percakapan.",
+    "sourceRefs": [
+      "SRC_AAP_DEV_12M",
+      "SRC_CDC_1Y_2026"
+    ],
+    "guardrailNote": "Tidak harus berupa kata bermakna.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK073",
+    "label": "Memperhatikan nama benda/orang yang familiar",
+    "domain": "Bahasa & Komunikasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil melihat benda/orang yang dimaksud ketika caregiver menamainya dalam konteks sehari-hari.",
+    "sourceRefs": [
+      "SRC_WHO_CCD_9_12"
+    ],
+    "guardrailNote": "Paparan bahasa, bukan tes kosakata.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK074",
+    "label": "Memasukkan benda ke wadah",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil memasukkan benda besar ke dalam wadah seperti blok ke cangkir.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Gunakan benda besar yang tidak berisiko tertelan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK075",
+    "label": "Mencari benda yang dilihat disembunyikan",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil mencari benda yang baru saja dilihat disembunyikan di bawah kain atau wadah.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_WHO_CCD_9_12"
+    ],
+    "guardrailNote": "Permainan pencarian bukan tes kognitif formal.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK076",
+    "label": "Mengeksplorasi wadah dengan masuk-keluar benda",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil mengulang memasukkan, mengeluarkan, atau menumpahkan benda dari wadah.",
+    "sourceRefs": [
+      "SRC_WHO_CCD_9_12",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Fokus pada eksplorasi aman, bukan hasil benar/salah.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK077",
+    "label": "Meniru tindakan sederhana pada benda",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil mencoba mengulangi tindakan caregiver seperti mengetuk, memasukkan, atau membuka benda sederhana.",
+    "sourceRefs": [
+      "SRC_UNICEF_CCD",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Modelkan satu langkah sederhana.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK078",
+    "label": "Memilih atau mempertahankan perhatian pada benda yang diminati",
+    "domain": "Berpikir & Eksplorasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil memilih satu dari dua benda atau kembali ke benda yang menarik perhatiannya.",
+    "sourceRefs": [
+      "SRC_WHO_CCD_9_12",
+      "SRC_UNICEF_CCD"
+    ],
+    "guardrailNote": "Tidak ada pilihan yang benar/salah.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK079",
+    "label": "Menarik tubuh untuk berdiri",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil menarik tubuh ke posisi berdiri dengan dukungan furnitur kokoh.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_MOVEMENT_8_12"
+    ],
+    "guardrailNote": "Furnitur harus stabil/terikat; jangan mempercepat kemampuan berdiri.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK080",
+    "label": "Berjalan sambil berpegangan pada furnitur",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil bergerak menyamping sambil berpegangan pada furnitur yang aman.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_MOVEMENT_8_12"
+    ],
+    "guardrailNote": "Cruising hanya di area baby-proof dan furnitur sangat stabil.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK081",
+    "label": "Berdiri sesaat dengan sedikit/ tanpa dukungan",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil sesekali melepas dukungan atau berdiri singkat sebelum mencari pegangan kembali.",
+    "sourceRefs": [
+      "SRC_AAP_MOVEMENT_8_12",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Tidak perlu dilatih dengan melepas tangan secara paksa.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK082",
+    "label": "Berpindah antara duduk, merangkak, dan berdiri",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil mulai lebih lancar berpindah posisi saat bermain di lantai.",
+    "sourceRefs": [
+      "SRC_AAP_MOVEMENT_8_12"
+    ],
+    "guardrailNote": "Biarkan transisi terjadi alami di lingkungan aman.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK083",
+    "label": "Mendorong benda stabil sambil berdiri/berjalan",
+    "domain": "Gerak Tubuh",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil mendorong benda sangat stabil seperti push toy yang sesuai atau kotak kokoh sambil melangkah.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_MOVEMENT_8_12"
+    ],
+    "guardrailNote": "Baby walker beroda yang membuat anak duduk di dalamnya tidak direkomendasikan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK084",
+    "label": "Mengambil benda kecil makanan dengan ibu jari dan telunjuk",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Dalam konteks makan yang aman, Si Kecil mengambil potongan makanan sesuai usia dengan ibu jari dan telunjuk.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Jangan gunakan benda kecil non-makanan untuk menguji pincer grasp; feeding safety harus mengikuti panduan tenaga kesehatan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK085",
+    "label": "Melepas benda dengan sengaja ke wadah",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "developmental observation",
+    "description": "Si Kecil melepaskan benda besar ke dalam wadah secara lebih terarah.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026",
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Gunakan benda besar aman.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK086",
+    "label": "Membalik halaman board book tebal",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil mencoba membuka atau membalik halaman tebal buku anak.",
+    "sourceRefs": [
+      "SRC_AAP_DEV_12M"
+    ],
+    "guardrailNote": "Tidak menuntut satu halaman tepat satu kali.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK087",
+    "label": "Minum dari cangkir terbuka dengan bantuan caregiver",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "milestone/observation",
+    "description": "Si Kecil minum dari cangkir tanpa tutup saat cangkir dipegang atau dibantu caregiver.",
+    "sourceRefs": [
+      "SRC_CDC_1Y_2026"
+    ],
+    "guardrailNote": "Aktivitas feeding harus mengikuti kesiapan anak; jangan diberikan sebagai tes perkembangan.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK088",
+    "label": "Menarik atau melepas bagian besar mainan",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil menarik, melepas, atau memindahkan bagian mainan berukuran besar seperti ring.",
+    "sourceRefs": [
+      "SRC_AAP_DEV_12M",
+      "SRC_UNICEF_CCD"
+    ],
+    "guardrailNote": "Gunakan hanya bagian besar yang tidak dapat tertelan dan tidak tajam.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK089",
+    "label": "Menekan tombol besar atau bagian mainan dengan tangan/jari",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 301,
+      "maxDays": 390
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil menggunakan jari atau telapak untuk menekan bagian besar pada mainan sebab-akibat.",
+    "sourceRefs": [
+      "SRC_AAP_DEV_12M",
+      "SRC_UNICEF_CCD"
+    ],
+    "guardrailNote": "Baterai wajib tertutup aman; bukan tes ketepatan jari.",
+    "reviewStatus": "source_checked"
+  },
+  {
+    "id": "SK090",
+    "label": "Menggunakan dua tangan untuk menumpuk, memasukkan, atau memisahkan cup besar",
+    "domain": "Tangan & Koordinasi",
+    "age": {
+      "minDays": 331,
+      "maxDays": 390
+    },
+    "observationType": "activity observation",
+    "description": "Si Kecil menggunakan kedua tangan saat mengeksplorasi nesting cup atau benda besar sejenis.",
+    "sourceRefs": [
+      "SRC_AAP_DEV_12M",
+      "SRC_UNICEF_CCD"
+    ],
+    "guardrailNote": "Tidak perlu menghasilkan susunan tertentu.",
+    "reviewStatus": "source_checked"
+  }
+]

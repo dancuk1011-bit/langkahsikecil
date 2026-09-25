@@ -1,0 +1,124 @@
+{
+  "dataset": "Langkah Si Kecil 0–12 bulan",
+  "generatedAt": "2026-09-24",
+  "technicalValidation": "PASS",
+  "productionClinicalApproval": "BLOCKED",
+  "reasonProductionBlocked": "Technical/content structure is valid, but the master dataset has not been signed off by a qualified clinical/content reviewer. Records remain source_checked or clinical_review. Do not relabel them approved without actual review.",
+  "counts": {
+    "activities": 122,
+    "skills": 90,
+    "sources": 20,
+    "activitySkillMappings": 244,
+    "riskRules": 5,
+    "developmentEligibleActivities": 122,
+    "productionApprovedActivities": 0,
+    "productionApprovedRiskRules": 0
+  },
+  "reviewStatusCounts": {
+    "activities": {
+      "source_checked": 122
+    },
+    "skills": {
+      "source_checked": 90
+    },
+    "riskRules": {
+      "source_checked": 3,
+      "clinical_review": 2
+    }
+  },
+  "coverage": {
+    "0": {
+      "Gerak Tubuh": 4,
+      "Tangan & Koordinasi": 2,
+      "Bahasa & Komunikasi": 3,
+      "Sosial & Emosi": 4,
+      "Berpikir & Eksplorasi": 4
+    },
+    "1": {
+      "Gerak Tubuh": 6,
+      "Tangan & Koordinasi": 4,
+      "Bahasa & Komunikasi": 5,
+      "Sosial & Emosi": 5,
+      "Berpikir & Eksplorasi": 5
+    },
+    "2": {
+      "Gerak Tubuh": 5,
+      "Tangan & Koordinasi": 5,
+      "Bahasa & Komunikasi": 6,
+      "Sosial & Emosi": 5,
+      "Berpikir & Eksplorasi": 8
+    },
+    "3": {
+      "Gerak Tubuh": 4,
+      "Tangan & Koordinasi": 5,
+      "Bahasa & Komunikasi": 6,
+      "Sosial & Emosi": 5,
+      "Berpikir & Eksplorasi": 6
+    },
+    "4": {
+      "Gerak Tubuh": 4,
+      "Tangan & Koordinasi": 3,
+      "Bahasa & Komunikasi": 5,
+      "Sosial & Emosi": 5,
+      "Berpikir & Eksplorasi": 3
+    },
+    "5": {
+      "Gerak Tubuh": 6,
+      "Tangan & Koordinasi": 6,
+      "Bahasa & Komunikasi": 6,
+      "Sosial & Emosi": 6,
+      "Berpikir & Eksplorasi": 6
+    },
+    "6": {
+      "Gerak Tubuh": 6,
+      "Tangan & Koordinasi": 5,
+      "Bahasa & Komunikasi": 5,
+      "Sosial & Emosi": 6,
+      "Berpikir & Eksplorasi": 6
+    },
+    "7": {
+      "Gerak Tubuh": 4,
+      "Tangan & Koordinasi": 4,
+      "Bahasa & Komunikasi": 4,
+      "Sosial & Emosi": 4,
+      "Berpikir & Eksplorasi": 3
+    },
+    "8": {
+      "Gerak Tubuh": 6,
+      "Tangan & Koordinasi": 6,
+      "Bahasa & Komunikasi": 6,
+      "Sosial & Emosi": 6,
+      "Berpikir & Eksplorasi": 6
+    },
+    "9": {
+      "Gerak Tubuh": 6,
+      "Tangan & Koordinasi": 6,
+      "Bahasa & Komunikasi": 6,
+      "Sosial & Emosi": 6,
+      "Berpikir & Eksplorasi": 6
+    },
+    "10": {
+      "Gerak Tubuh": 3,
+      "Tangan & Koordinasi": 5,
+      "Bahasa & Komunikasi": 4,
+      "Sosial & Emosi": 5,
+      "Berpikir & Eksplorasi": 4
+    },
+    "11": {
+      "Gerak Tubuh": 6,
+      "Tangan & Koordinasi": 6,
+      "Bahasa & Komunikasi": 6,
+      "Sosial & Emosi": 6,
+      "Berpikir & Eksplorasi": 6
+    },
+    "12": {
+      "Gerak Tubuh": 6,
+      "Tangan & Koordinasi": 6,
+      "Bahasa & Komunikasi": 6,
+      "Sosial & Emosi": 6,
+      "Berpikir & Eksplorasi": 6
+    }
+  },
+  "issues": [],
+  "warnings": []
+}

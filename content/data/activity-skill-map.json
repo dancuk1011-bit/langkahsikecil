@@ -1,0 +1,1222 @@
+[
+  {
+    "activityId": "ACT001",
+    "skillId": "SK008",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT001",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT002",
+    "skillId": "SK009",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT002",
+    "skillId": "SK010",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT003",
+    "skillId": "SK008",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT003",
+    "skillId": "SK006",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT004",
+    "skillId": "SK008",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT004",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT005",
+    "skillId": "SK009",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT005",
+    "skillId": "SK005",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT006",
+    "skillId": "SK008",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT006",
+    "skillId": "SK002",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT007",
+    "skillId": "SK010",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT007",
+    "skillId": "SK002",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT008",
+    "skillId": "SK010",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT008",
+    "skillId": "SK011",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT009",
+    "skillId": "SK011",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT009",
+    "skillId": "SK010",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT010",
+    "skillId": "SK010",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT010",
+    "skillId": "SK007",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT011",
+    "skillId": "SK012",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT011",
+    "skillId": "SK006",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT012",
+    "skillId": "SK012",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT012",
+    "skillId": "SK008",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT013",
+    "skillId": "SK005",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT013",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT014",
+    "skillId": "SK005",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT014",
+    "skillId": "SK013",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT015",
+    "skillId": "SK005",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT015",
+    "skillId": "SK002",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT016",
+    "skillId": "SK013",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT016",
+    "skillId": "SK004",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT017",
+    "skillId": "SK013",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT017",
+    "skillId": "SK003",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT018",
+    "skillId": "SK007",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT018",
+    "skillId": "SK005",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT019",
+    "skillId": "SK002",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT019",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT020",
+    "skillId": "SK001",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT020",
+    "skillId": "SK003",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT021",
+    "skillId": "SK002",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT021",
+    "skillId": "SK005",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT022",
+    "skillId": "SK015",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT022",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT023",
+    "skillId": "SK003",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT023",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT024",
+    "skillId": "SK001",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT024",
+    "skillId": "SK005",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT025",
+    "skillId": "SK006",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT025",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT026",
+    "skillId": "SK006",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT026",
+    "skillId": "SK007",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT027",
+    "skillId": "SK006",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT027",
+    "skillId": "SK007",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT028",
+    "skillId": "SK005",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT028",
+    "skillId": "SK014",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT029",
+    "skillId": "SK007",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT029",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT030",
+    "skillId": "SK014",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT030",
+    "skillId": "SK005",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT031",
+    "skillId": "SK007",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT031",
+    "skillId": "SK012",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT032",
+    "skillId": "SK007",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT032",
+    "skillId": "SK001",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT033",
+    "skillId": "SK027",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT033",
+    "skillId": "SK025",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT034",
+    "skillId": "SK036",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT034",
+    "skillId": "SK035",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT035",
+    "skillId": "SK036",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT035",
+    "skillId": "SK035",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT036",
+    "skillId": "SK038",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT036",
+    "skillId": "SK023",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT037",
+    "skillId": "SK037",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT037",
+    "skillId": "SK027",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT038",
+    "skillId": "SK009",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT038",
+    "skillId": "SK022",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT039",
+    "skillId": "SK024",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT039",
+    "skillId": "SK022",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT040",
+    "skillId": "SK025",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT040",
+    "skillId": "SK022",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT041",
+    "skillId": "SK035",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT041",
+    "skillId": "SK022",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT042",
+    "skillId": "SK035",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT042",
+    "skillId": "SK024",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT043",
+    "skillId": "SK024",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT043",
+    "skillId": "SK022",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT044",
+    "skillId": "SK024",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT044",
+    "skillId": "SK034",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT045",
+    "skillId": "SK020",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT045",
+    "skillId": "SK031",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT046",
+    "skillId": "SK020",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT046",
+    "skillId": "SK018",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT047",
+    "skillId": "SK020",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT047",
+    "skillId": "SK021",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT048",
+    "skillId": "SK020",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT048",
+    "skillId": "SK031",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT049",
+    "skillId": "SK019",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT049",
+    "skillId": "SK020",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT050",
+    "skillId": "SK032",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT050",
+    "skillId": "SK033",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT051",
+    "skillId": "SK017",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT051",
+    "skillId": "SK016",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT052",
+    "skillId": "SK029",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT052",
+    "skillId": "SK030",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT053",
+    "skillId": "SK016",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT053",
+    "skillId": "SK018",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT054",
+    "skillId": "SK028",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT054",
+    "skillId": "SK018",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT055",
+    "skillId": "SK018",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT055",
+    "skillId": "SK017",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT056",
+    "skillId": "SK028",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT056",
+    "skillId": "SK018",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT057",
+    "skillId": "SK034",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT057",
+    "skillId": "SK024",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT058",
+    "skillId": "SK022",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT058",
+    "skillId": "SK024",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT059",
+    "skillId": "SK035",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT059",
+    "skillId": "SK022",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT060",
+    "skillId": "SK035",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT060",
+    "skillId": "SK036",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT061",
+    "skillId": "SK034",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT061",
+    "skillId": "SK024",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT062",
+    "skillId": "SK022",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT062",
+    "skillId": "SK035",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT063",
+    "skillId": "SK040",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT063",
+    "skillId": "SK048",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT064",
+    "skillId": "SK040",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT064",
+    "skillId": "SK048",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT065",
+    "skillId": "SK042",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT065",
+    "skillId": "SK049",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT066",
+    "skillId": "SK043",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT066",
+    "skillId": "SK042",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT067",
+    "skillId": "SK042",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT067",
+    "skillId": "SK055",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT068",
+    "skillId": "SK044",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT068",
+    "skillId": "SK040",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT069",
+    "skillId": "SK045",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT069",
+    "skillId": "SK048",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT070",
+    "skillId": "SK046",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT070",
+    "skillId": "SK052",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT071",
+    "skillId": "SK045",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT071",
+    "skillId": "SK049",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT072",
+    "skillId": "SK045",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT072",
+    "skillId": "SK052",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT073",
+    "skillId": "SK045",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT073",
+    "skillId": "SK049",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT074",
+    "skillId": "SK048",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT074",
+    "skillId": "SK045",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT075",
+    "skillId": "SK058",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT075",
+    "skillId": "SK062",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT076",
+    "skillId": "SK061",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT076",
+    "skillId": "SK062",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT077",
+    "skillId": "SK059",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT077",
+    "skillId": "SK062",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT078",
+    "skillId": "SK060",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT078",
+    "skillId": "SK062",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT079",
+    "skillId": "SK063",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT079",
+    "skillId": "SK061",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT080",
+    "skillId": "SK060",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT080",
+    "skillId": "SK058",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT081",
+    "skillId": "SK057",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT081",
+    "skillId": "SK050",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT082",
+    "skillId": "SK062",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT082",
+    "skillId": "SK053",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT083",
+    "skillId": "SK053",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT083",
+    "skillId": "SK057",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT084",
+    "skillId": "SK051",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT084",
+    "skillId": "SK057",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT085",
+    "skillId": "SK056",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT085",
+    "skillId": "SK054",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT086",
+    "skillId": "SK055",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT086",
+    "skillId": "SK051",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT087",
+    "skillId": "SK049",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT087",
+    "skillId": "SK050",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT088",
+    "skillId": "SK049",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT088",
+    "skillId": "SK052",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT089",
+    "skillId": "SK052",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT089",
+    "skillId": "SK046",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT090",
+    "skillId": "SK049",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT090",
+    "skillId": "SK045",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT091",
+    "skillId": "SK049",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT091",
+    "skillId": "SK050",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT092",
+    "skillId": "SK052",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT092",
+    "skillId": "SK045",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT093",
+    "skillId": "SK080",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT093",
+    "skillId": "SK079",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT094",
+    "skillId": "SK079",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT094",
+    "skillId": "SK082",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT095",
+    "skillId": "SK082",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT095",
+    "skillId": "SK078",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT096",
+    "skillId": "SK080",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT096",
+    "skillId": "SK081",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT097",
+    "skillId": "SK083",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT097",
+    "skillId": "SK080",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT098",
+    "skillId": "SK081",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT098",
+    "skillId": "SK080",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT099",
+    "skillId": "SK085",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT099",
+    "skillId": "SK074",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT100",
+    "skillId": "SK085",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT100",
+    "skillId": "SK076",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT101",
+    "skillId": "SK086",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT101",
+    "skillId": "SK073",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT102",
+    "skillId": "SK088",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT102",
+    "skillId": "SK077",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT103",
+    "skillId": "SK089",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT103",
+    "skillId": "SK077",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT104",
+    "skillId": "SK090",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT104",
+    "skillId": "SK076",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT105",
+    "skillId": "SK068",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT105",
+    "skillId": "SK073",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT106",
+    "skillId": "SK073",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT106",
+    "skillId": "SK066",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT107",
+    "skillId": "SK071",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT107",
+    "skillId": "SK067",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT108",
+    "skillId": "SK073",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT108",
+    "skillId": "SK086",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT109",
+    "skillId": "SK072",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT109",
+    "skillId": "SK069",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT110",
+    "skillId": "SK062",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT110",
+    "skillId": "SK068",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT111",
+    "skillId": "SK064",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT111",
+    "skillId": "SK065",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT112",
+    "skillId": "SK067",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT112",
+    "skillId": "SK065",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT113",
+    "skillId": "SK065",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT113",
+    "skillId": "SK077",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT114",
+    "skillId": "SK065",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT114",
+    "skillId": "SK077",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT115",
+    "skillId": "SK066",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT115",
+    "skillId": "SK073",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT116",
+    "skillId": "SK067",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT116",
+    "skillId": "SK082",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT117",
+    "skillId": "SK075",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT117",
+    "skillId": "SK076",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT118",
+    "skillId": "SK075",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT118",
+    "skillId": "SK077",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT119",
+    "skillId": "SK078",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT119",
+    "skillId": "SK073",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT120",
+    "skillId": "SK077",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT120",
+    "skillId": "SK075",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT121",
+    "skillId": "SK074",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT121",
+    "skillId": "SK076",
+    "relation": "secondary"
+  },
+  {
+    "activityId": "ACT122",
+    "skillId": "SK077",
+    "relation": "primary"
+  },
+  {
+    "activityId": "ACT122",
+    "skillId": "SK076",
+    "relation": "secondary"
+  }
+]
