@@ -12,6 +12,10 @@ Aplikasi aktivitas bayi, pengamatan keluarga, catatan kekhawatiran, dan panduan 
 - `netlify/functions/`: pengelolaan push dan pengiriman terjadwal dengan Netlify Blobs.
 - `tests/`: uji data dan alur aplikasi.
 
+## Ringkasan & langkah berikutnya
+
+Di halaman Perkembangan, aplikasi merangkum jumlah aktivitas dan pengamatan yang dicatat dalam tujuh hari terakhir, lalu memberi satu ide bermain berdasarkan rentang usia (termasuk usia koreksi jika digunakan) dan respons terbaru. Respons lelah menghasilkan saran istirahat; belum tertarik menghasilkan opsi mencoba lebih ringan atau aktivitas lain; menikmati menghasilkan opsi mengulang atau mencoba variasi. Catatan kemampuan yang sebelumnya terlihat lalu dilaporkan hilang mengutamakan anjuran membahasnya dengan tenaga kesehatan. Ini rencana bermain keluarga, bukan skor tumbuh kembang, standar kemampuan, atau hasil skrining. Dataset master dan data pengguna lama tidak diubah.
+
 ## Bangun dan uji
 
 Gunakan Node.js yang memenuhi persyaratan Vite 8, lalu:
@@ -32,6 +36,8 @@ Build biasa menggunakan mode `production` dan menghasilkan folder `dist/`. Untuk
 **Paket statis:** ekstrak ZIP statis dan unggah folder berisi `index.html` ke Netlify Drop. PWA, konten, IndexedDB, backup, PDF, dan pengingat kalender berfungsi. Push server tidak disertakan di paket statis.
 
 **Paket proyek lengkap:** ekstrak ZIP proyek, masukkan ke repositori Git, lalu hubungkan repositori ke Netlify. `netlify.toml` menetapkan build command `npm run build`, publish directory `dist`, dan Functions directory `netlify/functions`. Anda juga dapat menjalankan `npm ci && npx netlify-cli deploy --build --prod` dari folder proyek setelah login dan menautkan situs yang benar.
+
+Jika memperbarui situs yang sudah aktif tanpa Git, ekstrak paket proyek lengkap, jalankan `npm ci`, lalu `npx netlify-cli link` untuk memilih **situs lama yang benar**. Uji dahulu dengan `npx netlify-cli deploy --build`; setelah alamat pratinjau diperiksa, jalankan `npx netlify-cli deploy --build --prod`. Mengunggah ZIP proyek lengkap langsung ke Netlify Drop tidak menjalankan build dan tidak memasang Functions.
 
 Untuk push, buat VAPID key dengan `npx web-push generate-vapid-keys`, lalu isi variabel Netlify:
 
@@ -58,3 +64,4 @@ Public key yang diawali `VITE_` masuk saat build; deploy ulang setelah mengganti
 4. Buat backup, pulihkan pada perangkat uji, dan uji penghapusan data.
 5. Instal PWA, buka saat offline, lalu periksa apakah konten dan catatan masih tersedia.
 6. Jika push dikonfigurasi, uji izin, jam, jeda, dan berhenti berlangganan di perangkat nyata.
+7. Periksa ringkasan Perkembangan: setelah respons lelah tampil anjuran jeda, setelah aktivitas lama melewati rentang usia tidak muncul sebagai ide saat ini, dan setelah mencatat kehilangan kemampuan tampil anjuran konsultasi.
