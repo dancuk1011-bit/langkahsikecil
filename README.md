@@ -16,6 +16,17 @@ Aplikasi aktivitas bayi, pengamatan keluarga, catatan kekhawatiran, dan panduan 
 
 Di halaman Perkembangan, aplikasi merangkum jumlah aktivitas dan pengamatan yang dicatat dalam tujuh hari terakhir, lalu memberi satu ide bermain berdasarkan rentang usia (termasuk usia koreksi jika digunakan) dan respons terbaru. Respons lelah menghasilkan saran istirahat; belum tertarik menghasilkan opsi mencoba lebih ringan atau aktivitas lain; menikmati menghasilkan opsi mengulang atau mencoba variasi. Catatan kemampuan yang sebelumnya terlihat lalu dilaporkan hilang mengutamakan anjuran membahasnya dengan tenaga kesehatan. Ini rencana bermain keluarga, bukan skor tumbuh kembang, standar kemampuan, atau hasil skrining. Dataset master dan data pengguna lama tidak diubah.
 
+## Penyempurnaan alur pengguna
+
+- Profil anak dapat diperbaiki, termasuk tanggal lahir, prematuritas, HPL, usia koreksi, dan fokus aktivitas. Identitas anak dan catatan lama dipertahankan; catatan yang tanggalnya mendahului tanggal lahir yang sudah diperbaiki tidak dipakai untuk rekomendasi baru.
+- Pengamatan awal dapat dilewati. Setelah bermain, respons harus dipilih sendiri sebelum momen disimpan.
+- Aktivitas dari katalog di luar rentang usia tetap dapat dibaca, tetapi tidak bisa dimulai atau dicatat.
+- Ringkasan angka tujuh hari ada di Perkembangan; Hari Ini menampilkan satu langkah berikutnya. Catatan aktivitas dapat diperbaiki atau dihapus dari Perjalanan. Menghapus aktivitas juga menghapus pengamatan yang direkam bersama aktivitas tersebut.
+- Pengingat kalender mengikuti hari yang dipilih. Bila push belum dikonfigurasi, aplikasi menjelaskan bahwa hanya kalender yang tersedia dan tidak menampilkan ajakan mengaktifkan push yang gagal.
+- Panduan Baby Blues & Depresi Postpartum memakai tautan produk Scalev yang diberikan pemilik. Harga dan tombol beli telah dicocokkan dengan halaman yang aktif pada 26 September 2026.
+
+Cara memperbarui melalui GitHub web dijelaskan di [PANDUAN_UPGRADE_GITHUB.md](PANDUAN_UPGRADE_GITHUB.md).
+
 ## Bangun dan uji
 
 Gunakan Node.js yang memenuhi persyaratan Vite 8, lalu:
@@ -53,7 +64,9 @@ Public key yang diawali `VITE_` masuk saat build; deploy ulang setelah mengganti
 - **RISK004 tidak dieksekusi.** Dataset tidak menetapkan ambang numerik atau titik usia untuk pengamatan lintas domain; sistem tidak menebaknya. RISK003 memakai ambang tertulis: dua catatan kekhawatiran kategori sama dalam 14 hari.
 - Aplikasi bukan alat skrining, diagnosis, atau penentu keadaan darurat. Catatan kekhawatiran dapat dibawa ke tenaga kesehatan.
 - Data anak tersimpan di browser; tidak ada sinkronisasi antar-perangkat selain backup dan pemulihan manual.
-- Panduan postpartum menampilkan harga Rp49.000 sebagai informasi, dengan status “Segera Hadir” karena URL checkout resmi belum diberikan.
+- Halaman produk postpartum di Scalev masih memuat beberapa kalimat template tentang CPNS/NIP yang tidak sesuai produk. Perbaiki di Scalev sebelum mengarahkan iklan ke halaman tersebut.
+- `src/analytics.ts` belum mengirim metrik penggunaan. Tanpa pengukuran yang disetujui pengguna, tidak ada dasar untuk menyebut fitur tertentu jarang digunakan atau berdampak pada konversi.
+- Materi promosi lama yang menjanjikan Fase, Tidur, Cek Cepat, prediksi rewel, atau keputusan gawat darurat perlu disesuaikan. Fitur dan klaim tersebut tidak tersedia pada versi ini.
 - Peninjauan klinis independen **tidak diverifikasi oleh pembuat build**; dasar perubahan status rilis adalah konfirmasi pemilik produk dalam percakapan.
 
 ## Cek di ponsel sesudah deploy

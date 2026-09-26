@@ -14,6 +14,17 @@ const db=()=>dbPromise??=openDB(NAME,2,{upgrade(database){for(const name of ['ch
 export async function all<T>(store:Store):Promise<T[]>{return (await db()).getAll(store)}
 export async function save<T extends {id:string}>(store:Store,value:T){await (await db()).put(store,value)}
 export async function remove(store:Store,id:string){await (await db()).delete(store,id)}
+/** Keep activity and observations recorded with it consistent after a correction. */
+export async function deleteEntryForChild(childId:string,store:'activityLogs'|'observations'|'concerns',id:string){
+ const database=await db();const tx=database.transaction(['activityLogs','observations','concerns'],'readwrite');
+ const existing=await tx.objectStore(store).get(id) as {childId?:string}|undefined;
+ if(!existing||existing.childId!==childId){await tx.done;return false}
+ if(store==='activityLogs'){
+  const observations=await tx.objectStore('observations').getAll() as Observation[];
+  for(const observation of observations)if(observation.childId===childId&&observation.activityLogId===id)await tx.objectStore('observations').delete(observation.id);
+ }
+ await tx.objectStore(store).delete(id);await tx.done;return true;
+}
 export async function getSettings():Promise<Settings>{const current=await (await db()).get('settings','settings');return current??{id:'settings',schemaVersion:2,notificationEnabled:false}}
 export async function saveSettings(patch:Partial<Settings>){const next={...await getSettings(),...patch,schemaVersion:2} as Settings;await save('settings',next);return next}
 export async function clearUserData(){const database=await db();const tx=database.transaction(['children','activityLogs','observations','concerns','favorites','settings','meta'],'readwrite');for(const name of ['children','activityLogs','observations','concerns','favorites','settings','meta'] as Store[])await tx.objectStore(name).clear();await tx.done;await database.put('meta',{id:'legacy-migrated',at:new Date().toISOString()})}
