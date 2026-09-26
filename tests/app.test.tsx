@@ -6,6 +6,7 @@ import {render,screen,within,cleanup} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../src/app';
 import {all,clearUserData,save,saveSettings,type ActivityLog,type Child} from '../src/db';
+import {today} from '../src/age';
 
 Object.defineProperty(window,'scrollTo',{value:()=>{},configurable:true});
 beforeEach(async()=>{window.history.replaceState(null,'','/');await clearUserData()});
@@ -82,4 +83,27 @@ it('mengoreksi respons dan menghapus pengamatan terkait saat aktivitas dihapus',
  await user.click(within(card).getByRole('button',{name:'Ya, Hapus Catatan'}));
  expect(await all<ActivityLog>('activityLogs')).toHaveLength(0);
  expect(await all('observations')).toHaveLength(0);
+});
+
+it('menyapa sesuai pilihan keluarga dan membedakan pengamatan belum terlihat dari belum dicatat',async()=>{
+ const local=new Date(`${today()}T12:00:00Z`);local.setUTCDate(local.getUTCDate()-270);
+ await save('children',{...child,dateOfBirth:local.toISOString().slice(0,10)});
+ await saveSettings({activeChildId:child.id});
+ const user=userEvent.setup();render(<App/>);
+ await screen.findByText(/Hari ini bersama Nara/);
+ const insight=screen.getByText(/Hal yang dapat Ayah\/Bunda amati saat bermain:/);
+ const skillName=insight.textContent!.split(': ')[1].replace(/\.$/,'');
+ expect(screen.getByText(/Catatan Nara: Belum dicatat/)).toBeTruthy();
+ expect(screen.getByText('SETELAH INI · OPSIONAL')).toBeTruthy();
+ await user.click(screen.getByRole('button',{name:'Profil',exact:true}));
+ await user.selectOptions(screen.getByLabelText('Sapaan untuk keluarga'),'Mom');
+ await user.click(screen.getByRole('button',{name:'Hari Ini',exact:true}));
+ expect(await screen.findByText(/Hal yang dapat Mom amati saat bermain:/)).toBeTruthy();
+ await user.click(screen.getByRole('button',{name:'Catat pengamatan di Perkembangan →'}));
+ const card=screen.getByText(skillName,{exact:true}).closest('.card.skill')!;
+ await user.click(within(card).getByRole('button',{name:'Belum terlihat'}));
+ expect(await within(card).findByText(/Belum terlihat pada pengamatan terakhir/)).toBeTruthy();
+ await user.click(screen.getByRole('button',{name:'Hari Ini',exact:true}));
+ expect(await screen.findByText(/Catatan Nara: Belum terlihat saat pengamatan terakhir/)).toBeTruthy();
+ expect(screen.getByRole('heading',{name:'Mulai dari cara yang lebih mudah'})).toBeTruthy();
 });

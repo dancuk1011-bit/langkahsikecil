@@ -16,12 +16,18 @@ Aplikasi aktivitas bayi, pengamatan keluarga, catatan kekhawatiran, dan panduan 
 
 Di halaman Perkembangan, aplikasi merangkum jumlah aktivitas dan pengamatan yang dicatat dalam tujuh hari terakhir, lalu memberi satu ide bermain berdasarkan rentang usia (termasuk usia koreksi jika digunakan) dan respons terbaru. Respons lelah menghasilkan saran istirahat; belum tertarik menghasilkan opsi mencoba lebih ringan atau aktivitas lain; menikmati menghasilkan opsi mengulang atau mencoba variasi. Catatan kemampuan yang sebelumnya terlihat lalu dilaporkan hilang mengutamakan anjuran membahasnya dengan tenaga kesehatan. Ini rencana bermain keluarga, bukan skor tumbuh kembang, standar kemampuan, atau hasil skrining. Dataset master dan data pengguna lama tidak diubah.
 
+### Pendampingan bermain yang dipersonalisasi
+
+Hari Ini menampilkan nama dan usia anak, satu kemampuan yang terkait dengan aktivitas utama, serta status **belum dicatat**, **belum terlihat**, **belum yakin**, atau **pernah terlihat** berdasarkan pengamatan keluarga. Status tidak diturunkan dari respons aktivitas. Di bawah aktivitas utama ada satu kartu **Setelah ini**: istirahat bila lelah, ulangi cara sederhana bila belum terlihat atau belum tertarik, coba variasi bila nyaman, atau lihat satu aktivitas lain sesuai usia ketika respons bermain dan pengamatan mendukung. Pilihan lain sebelum ada catatan diberi syarat "jika nyaman", bukan dinyatakan sebagai tahap perkembangan yang harus dicapai.
+
+Pengamatan **Belum terlihat** dapat dicatat di Perkembangan. Profil memberi pilihan sapaan Ayah/Bunda, Mom, Bunda, atau Ayah. Pilihan ini tersimpan bersama pengaturan perangkat dan ikut dalam backup. Semua aktivitas dan pemetaan kemampuan tetap memakai dataset master yang sudah tersedia.
+
 ## Penyempurnaan alur pengguna
 
 - Profil anak dapat diperbaiki, termasuk tanggal lahir, prematuritas, HPL, usia koreksi, dan fokus aktivitas. Identitas anak dan catatan lama dipertahankan; catatan yang tanggalnya mendahului tanggal lahir yang sudah diperbaiki tidak dipakai untuk rekomendasi baru.
 - Pengamatan awal dapat dilewati. Setelah bermain, respons harus dipilih sendiri sebelum momen disimpan.
 - Aktivitas dari katalog di luar rentang usia tetap dapat dibaca, tetapi tidak bisa dimulai atau dicatat.
-- Ringkasan angka tujuh hari ada di Perkembangan; Hari Ini menampilkan satu langkah berikutnya. Catatan aktivitas dapat diperbaiki atau dihapus dari Perjalanan. Menghapus aktivitas juga menghapus pengamatan yang direkam bersama aktivitas tersebut.
+- Ringkasan angka tujuh hari ada di Perkembangan; Hari Ini menampilkan saran setelah aktivitas utama. Catatan aktivitas dapat diperbaiki atau dihapus dari Perjalanan. Menghapus aktivitas juga menghapus pengamatan yang direkam bersama aktivitas tersebut.
 - Pengingat kalender mengikuti hari yang dipilih. Bila push belum dikonfigurasi, aplikasi menjelaskan bahwa hanya kalender yang tersedia dan tidak menampilkan ajakan mengaktifkan push yang gagal.
 - Panduan Baby Blues & Depresi Postpartum memakai tautan produk Scalev yang diberikan pemilik. Harga dan tombol beli telah dicocokkan dengan halaman yang aktif pada 26 September 2026.
 

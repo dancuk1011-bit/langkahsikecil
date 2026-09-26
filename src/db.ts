@@ -1,11 +1,12 @@
 import {openDB, type IDBPDatabase} from 'idb';
 export type ResponseKind='enjoyed'|'tried'|'not_interested'|'tired';
+export type CaregiverAddress='Ayah/Bunda'|'Mom'|'Bunda'|'Ayah';
 export interface Child {id:string; nickname:string; dateOfBirth:string; prematurityStatus:'yes'|'no'|'unsure'; gestationalAgeWeeks?:number; gestationalAgeDays?:number; estimatedDueDate?:string; useCorrectedAge:boolean; focusDomains:string[]; createdAt:string; updatedAt:string}
 export interface ActivityLog {id:string; childId:string; activityId:string; contentVersion:string; startedAt:string; completedAt?:string; localDate:string; response?:ResponseKind; note?:string; snapshot:{title:string;primaryDomain:string;benefitShort:string}}
 export interface Observation {id:string;childId:string;skillId:string;status:'seen'|'not_seen'|'unsure'|'lost';observedAt:string;activityLogId?:string;note?:string}
 export interface Concern {id:string;childId:string;category:string;note:string;createdAt:string}
 export interface Favorite {id:string;childId:string;activityId:string;createdAt:string}
-export interface Settings {id:'settings';schemaVersion:number;activeChildId?:string;notificationEnabled:boolean;reminderTime?:string;reminderDays?:number[];reminderSnoozedUntil?:string;lastBackupAt?:string;analyticsConsent?:boolean;installationId?:string;pushManageSecret?:string}
+export interface Settings {id:'settings';schemaVersion:number;activeChildId?:string;caregiverAddress?:CaregiverAddress;notificationEnabled:boolean;reminderTime?:string;reminderDays?:number[];reminderSnoozedUntil?:string;lastBackupAt?:string;analyticsConsent?:boolean;installationId?:string;pushManageSecret?:string}
 export type Store='children'|'activityLogs'|'observations'|'concerns'|'favorites'|'settings'|'meta';
 const NAME='langkah-si-kecil-local-v1';
 let dbPromise:Promise<IDBPDatabase>|undefined;

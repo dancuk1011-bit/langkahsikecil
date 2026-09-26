@@ -8,3 +8,11 @@
 .plan-next{padding:15px;margin:18px 0;background:#fff;border:1px solid #e8defa;border-radius:13px}
 .plan-next small{display:block;color:#756b8b;margin:5px 0 12px}
 .plan-next .primary{max-width:100%}
+.hero-guidance{background:#ffffff21;border-radius:13px;padding:13px;margin:0 0 17px}
+.hero-guidance p{margin:6px 0}
+.hero-guidance small{color:#fff}
+.next-step-card{margin:12px 0;border-color:#dacff4}
+.next-step-card h3{margin:4px 0 8px}
+.next-step-card .secondary{margin-top:8px}
+.address-picker{margin:14px 0 0}
+.address-picker select{display:block;width:100%;margin-top:7px}
